@@ -102,14 +102,14 @@ section {
 }
 
 .hero-text h5 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .hero-text h1 {
     font-family: "Borel", cursive;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 1;
     margin-bottom: 0 0 30;
 }
@@ -126,7 +126,7 @@ section {
     width: 600px;
     margin: 10% 0 0 10%;
     height: auto;
-    transition: all 3s;
+    transition: all 3s ease;
     /*Esto hace que la transicion sea lineal*/
 }
 
@@ -221,6 +221,7 @@ section {
     .hero-text{
         text-align: center;
         padding-top: 120px;
+      
     
     }
 
@@ -228,6 +229,12 @@ section {
         margin: 0;
         width: 60%;
     }
+
+    .hero-img img:hover {
+        width: 70%;
+        opacity: 0.6;
+    }
+    
 
     .hero {
         height: 100%;
